@@ -1,6 +1,12 @@
 name = 'Maria'
-age = 28
-print(f'Meu nome é {name} e eu tenho {age} anos de idade.')
+idade = 28
 
-name, age = {'João', 30}
-print(f'Meu nome é {name} e eu tenho {age} anos de idade.')
+nome = 'Giovana'
+
+print(nome, idade)
+
+limite_saque_diario = 1000
+
+ESTADOS_SUDESTE = ['SP', 'MG', 'RJ', 'ES']
+
+print(ESTADOS_SUDESTE)
