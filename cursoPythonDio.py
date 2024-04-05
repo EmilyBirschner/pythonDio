@@ -1,12 +1,22 @@
-name = 'Maria'
+preco = 10
+print(preco)
+
+preco = int(preco)
+print(preco)
+
+preco = float(preco)
+print(preco)
+
+preco = 10.50
 idade = 28
+print(str(preco))
+print(str(idade))
 
-nome = 'Giovana'
+texto = f'idade {idade} preço {preco}'
+print(texto)
 
-print(nome, idade)
+valor = 10
+valor_str = str(valor)
+print(type(valor))
+print(type(valor_str))
 
-limite_saque_diario = 1000
-
-ESTADOS_SUDESTE = ['SP', 'MG', 'RJ', 'ES']
-
-print(ESTADOS_SUDESTE)
