@@ -1,19 +1,6 @@
-conta_normal = True
-conta_universitaria = False
-
 saldo = 2000
 saque = 500
-cheque_especial = 450
+        
+status = "sucesso" if saldo >= saque else "Falha"
 
-if conta_normal:
-    if saldo >= saque:
-        print("Saque realizado com sucesso!")
-    elif saque <= (saldo + cheque_especial):
-        print("Saque realizado com o uso do cheque especial")
-    else:
-        print("não foi possível realizar a operação")
-elif conta_universitaria:
-    if saldo >= saque:
-        print("Saque realizado com sucesso")
-    else:
-        print("Saldo insuficiente")
+print(f'{status} ao realizar o saque')
