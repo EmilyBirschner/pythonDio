@@ -1,11 +1,17 @@
-MAIOR_IDADE = 18
-IDADE_ESPECIAL = 16
+conta_normal = True
+conta_universitaria = False
 
-idade = int(input("Informe sua idade: "))
+saldo = 2000
+saque = 500
+cheque_especial = 450
 
-if idade >= MAIOR_IDADE:
-    print("Maior de idade, pode tirar cnh")
-elif idade == IDADE_ESPECIAL:
-    print("Pode fazer as aulas teóricas")
-else:
-    print("Ainda não pode tirar cnh")
+if conta_normal:
+    if saldo >= saque:
+        print("Saque realizado com sucesso!")
+    elif saque <= (saldo + cheque_especial):
+        print("Saque realizado com o uso do cheque especial")
+elif conta_universitaria:
+    if saldo >= saque:
+        print("Saque realizado com sucesso")
+    else:
+        print("Saldo insuficiente")
