@@ -10,6 +10,8 @@ if conta_normal:
         print("Saque realizado com sucesso!")
     elif saque <= (saldo + cheque_especial):
         print("Saque realizado com o uso do cheque especial")
+    else:
+        print("não foi possível realizar a operação")
 elif conta_universitaria:
     if saldo >= saque:
         print("Saque realizado com sucesso")
