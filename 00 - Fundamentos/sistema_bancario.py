@@ -27,7 +27,7 @@ while True:
             print("O valor informado é inválido") 
                  
     elif opcao == "s":     
-        saque = float(input("digite o valor que deseja sacar =>"))
+        saque = float(input("digite o valor que deseja sacar => "))
           
         excedeu_saldo = saque > saldo
         
