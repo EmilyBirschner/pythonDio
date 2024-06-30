@@ -1,0 +1,1 @@
+[2024-06-30 16:52:43] Função 'depositar' executada com argumentos ([],) e {}. Retornou None
