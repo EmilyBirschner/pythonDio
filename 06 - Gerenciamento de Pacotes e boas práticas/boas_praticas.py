@@ -8,6 +8,8 @@ a = "python"
 
 b = "ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss"
 
+c = "manga"
+
 frutas = [
     "pera",
     "maçã",
